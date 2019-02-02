@@ -1,12 +1,12 @@
 {
   "name": "chat",
   "version": "1.0.0",
-  "description": "",
+  "description": "socket.io chat app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Josh Zirena",
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.6.1",
@@ -16,6 +16,7 @@
   "devDependencies": {
     "eslint": "^5.13.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.16.0"
+    "eslint-plugin-import": "^2.16.0",
+    "nodemon": "^1.18.9"
   }
 }
